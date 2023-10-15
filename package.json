@@ -1,0 +1,28 @@
+{
+  "name": "parkbackend",
+  "version": "1.0.0",
+  "description": "A node.js RESTful API project (Building a parking system API)",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Abigael Wasabi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.1",
+    "node-fetch": "^3.3.2",
+    "sequelize": "^6.33.0",
+    "ws": "^8.14.2"
+  }
+}
